@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace lab3
 {
-    public class Game<TLevel> 
+    public class Game<Level> 
     {
-        public List<TLevel> Levels { get; set; } 
+        public List<Level> Levels { get; set; } 
 
-        public Game(List<TLevel> levels) /// передаем список уровней
+        public Game(List<Level> levels) /// передаем список уровней
         {
             Levels = levels;
         }
