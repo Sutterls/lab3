@@ -14,7 +14,7 @@ namespace lab3
         public Level(ushort levelNumber)
         {
             LevelNumber = levelNumber;
-            if (levelNumber <= 0) /// проверка на правильность записи уровня
+            if (levelNumber == 0) /// проверка на правильность записи уровня
             {
                 throw new ArgumentException("LevelNumber must be greater than 0");
             }
